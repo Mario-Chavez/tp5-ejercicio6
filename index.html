@@ -80,12 +80,53 @@
             </div>
         </nav>
         <main class="container my-5">
-            <section id="seccion-principal">
-                <h1>Adivina el Número</h1>
-                <hr />
-                <button class="btn btn-primary" id="comenzarJuego">
-                    Comenzar el juego
+            <section class="" id="seccion-principal">
+                <h1 class="text-center">Crea una Persona</h1>
+                <form class="my-5" id="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input class="form-control" type="text" id="nombre" /><br />
+
+                    <label for="edad">Edad:</label>
+                    <input class="form-control" type="number" id="edad" /><br />
+
+                    <label for="dni">DNI:</label>
+                    <input class="form-control" type="text" id="dni" /><br />
+
+                    <label for="sexo">Sexo:</label>
+                    <select class="form-control" id="sexo">
+                        <option value="H">Hombre</option>
+                        <option value="M">Mujer</option></select
+                    ><br />
+
+                    <label for="peso">Peso:</label>
+                    <input
+                        class="form-control"
+                        type="number"
+                        step="0.01"
+                        id="peso"
+                    /><br />
+
+                    <label for="altura">Altura:</label>
+                    <input
+                        class="form-control"
+                        type="number"
+                        step="0.01"
+                        id="altura"
+                    /><br />
+
+                    <label for="nacimineto">Año de Nacimiento:</label>
+                    <input class="form-control" type="number" id="nacimineto" /><br />
+
+                    <button class="btn btn-primary" type="submit">Crear persona</button>
+                </form>
+                <h1 class="my-3">Mira sus Caracteristicas</h1>
+                <button class="btn btn-info" id="mostrar-generacion">
+                    Mostrar generación
                 </button>
+                <button class="btn btn-warning" id="es-mayor-de-edad">
+                    ¿Es mayor de edad?
+                </button>
+                <button class="btn btn-success" id="mostrar-datos">Mostrar datos</button>
             </section>
         </main>
         <footer class="bg-dark text-light py-5 text-center">Derecho Resevado</footer>
@@ -94,6 +135,6 @@
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"
         ></script>
-        <script src="./js/01-javascript.js"></script>
+        <script src="./js/02-javascript.js"></script>
     </body>
 </html>
