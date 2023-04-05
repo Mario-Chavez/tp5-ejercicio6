@@ -8,4 +8,4 @@
 git clone https://github.com/Mario-Chavez/tp5-ejercicio3.git
 ```
 
-## Aquì la pagina deployada en Netlify : [Tp5-Javascript-Ejercicio3](tp5-ejercicio3.netlify.app)
+## Aquì la pagina deployada en Netlify : [Tp5-Javascript-Ejercicio3](https://tp5-ejercicio3.netlify.app)
