@@ -79,33 +79,10 @@
                 </div>
             </div>
         </nav>
-        <main class="container my-5">
-            <section class="" id="seccion-principal">
-                <h1 class="text-center">Crea una Lista de Tareas</h1>
-                <form class="my-5" id="formulario">
-                    <label for="tarea">Hacer una lista de tarea :</label>
-                    <input class="form-control" type="text" id="tarea" /><br />
-                    <button class="btn btn-primary" type="submit">Crear Tarea</button>
-                </form>
-            </section>
-            <section>
-                <article class="text-center" id="mostrarTarea">
-                    <h1 class="my-5">que quieres hacer</h1>
-                    <button
-                        class="btn btn-success mx-3"
-                        id="mostrar-tareas"
-                        onclick="verListaTarea()"
-                    >
-                        Mostrar Tareas
-                    </button>
-                    <button
-                        class="btn btn-danger"
-                        id="eliminar-tareas"
-                        onclick="eliminarTarea()"
-                    >
-                        Eliminar Ultima Tarea
-                    </button>
-                </article>
+        <main class="container text-center my-5">
+            <section class="my-5">
+                <p class="contenedorFecha" id="fecha">Martes 5 de Marzo del 2023</p>
+                <p class="contenedorHora" id="hora">10:00:00</p>
             </section>
         </main>
         <footer class="bg-dark text-light py-5 text-center">Derecho Resevado</footer>
@@ -114,6 +91,6 @@
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"
         ></script>
-        <script src="./js/03-javascript.js"></script>
+        <script src="./js/04-reloj.js"></script>
     </body>
 </html>
