@@ -81,9 +81,16 @@
         </nav>
         <main class="container text-center my-5">
             <section class="my-5">
-                <p class="contenedorFecha" id="fecha">Martes 5 de Marzo del 2023</p>
-                <p class="contenedorHora" id="hora">10:00:00</p>
+                <p class="contenedorFecha">Cronometro</p>
+                <p class="contenedorHora" id="cronometro">00:00:00</p>
             </section>
+            <button class="btn btn-primary" onclick="iniciarCronometro()">Iniciar</button>
+            <button class="btn btn-warning m-4" onclick="detenerCronometro()">
+                Detener
+            </button>
+            <button class="btn btn-danger" onclick="reiniciarCronometro()">
+                Reiniciar
+            </button>
         </main>
         <footer class="bg-dark text-light py-5 text-center">Derecho Resevado</footer>
         <script
@@ -91,6 +98,6 @@
             integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
             crossorigin="anonymous"
         ></script>
-        <script src="./js/04-reloj.js"></script>
+        <script src="./js/05-cronometro.js"></script>
     </body>
 </html>
