@@ -15,7 +15,6 @@ function agregarTarea(e) {
     const tarea = document.getElementById("tarea").value;
     listasTareas.push(tarea);
     formulario.reset();
-    console.log(listasTareas);
 }
 
 function verListaTarea() {
@@ -30,5 +29,7 @@ function verListaTarea() {
 }
 
 function eliminarTarea() {
+    mostrarTarea.removeChild(mostrarTarea.children[3]);
     listasTareas.pop();
+    verListaTarea();
 }
